@@ -1,8 +1,8 @@
-"""Create tables with relationships
+"""fresh schema with relationship
 
-Revision ID: dc052492435d
+Revision ID: 9940665b551b
 Revises: 
-Create Date: 2026-05-11 12:05:16.201525
+Create Date: 2026-05-11 13:02:36.465577
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'dc052492435d'
+revision = '9940665b551b'
 down_revision = None
 branch_labels = None
 depends_on = None
